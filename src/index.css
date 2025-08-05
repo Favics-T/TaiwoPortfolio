@@ -1,6 +1,6 @@
 @import "tailwindcss";
 body{
 font-family: 'Arial Black', sans-serif;
-background-image: url('svg.svg');
+/* background-image: url('svg.svg'); */
 background-color: #090211;
 }
