@@ -6,7 +6,7 @@ const Nav = () => {
         {name:"About", path:""},
          {name:"Projects", path:""},
           {name:"Experience", path:""},
-          {name:"Home"}
+          {name:"Portfolio"}
     
 ]
   return (
