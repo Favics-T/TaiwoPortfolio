@@ -11,10 +11,10 @@ const Nav = () => {
 ]
   return (
     <div className=' items-center justify-center w-full flex text-white border'>
-      <div className='shadow-xl items-center justify-center rounded-lg bg-[#0c011a] p-4 flex gap-10 fixed top-2 text-white'>
+      <div className='shadow-xl items-center justify-center rounded-lg bg-[#0c011a] p-4 flex md:gap-10 gap-4 fixed top-2 text-white'>
         {
             list.map(({name,path})=>(
-                <li className='list-none cursor-pointer hover:text-[#f04a7c]'>{name}</li>
+                <li key={path} className='list-none cursor-pointer hover:text-[#f04a7c] text-lg'>{name}</li>
             ))
         }
       </div>

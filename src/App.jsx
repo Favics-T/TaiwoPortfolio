@@ -11,7 +11,7 @@ import Contact from './component/Contact'
 
 const App = () => {
   return (
-    <div className=' h-screen font-[Inter]  text-white flex flex-col gap-20 px-20 '>
+    <div className=' h-screen font-[Inter]  text-white flex flex-col gap-20  '>
      <Nav />
      <Hero />
      <About />

@@ -54,7 +54,7 @@ const Contact = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com/in/FaithKolapo"
+            href="https://www.linkedin.com/in/faith-kolapo-91615230b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfhQWYwMbQD6T7Q04t%2Bjr8w%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-indigo-500 transition"

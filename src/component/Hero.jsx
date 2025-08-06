@@ -13,7 +13,7 @@ const Hero = () => {
         Frontend Developer
       </h2>
 
-      <p className="text-gray-400 mt-4 max-w-xl text-lg">
+      <p className="text-gray-400 text-justify mt-4 max-w-xl  text-lg font-bold md:text-lg">
         I build responsive, accessible, and performance-driven web applications with React, Tailwind, and modern technologies.
       </p>
 
