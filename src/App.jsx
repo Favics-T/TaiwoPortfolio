@@ -1,27 +1,40 @@
-import React from 'react'
-import svg from './assets/svg.svg'
-import Nav from './component/Nav'
-import Hero from './component/Hero'
-import About from './component/About'
-import Skills from './component/Skills'
-import Project from './component/Project'
-import Experience from './component/Experience'
-import Footer from './component/Footer'
-import Contact from './component/Contact'
+import React from 'react';
+import Nav from './component/Nav';
+import Hero from './component/Hero';
+import About from './component/About';
+import Experience from './component/Experience';
+import Skills from './component/Skills';
+import Project from './component/Project';
+import Contact from './component/Contact';
+import Footer from './component/Footer';
 
 const App = () => {
   return (
-    <div className=' h-screen font-[Inter]  text-white flex flex-col gap-20  '>
-     <Nav />
-     <Hero />
-     <About />
-     <Experience />
-     <Skills />
-     <Project />
-     <Contact />
-     <Footer />
-    </div>
-  )
-}
+    <div
+      className="bg-[#06010a] text-white font-[Inter] flex flex-col"
+      style={{
+        backgroundImage: `url('/assets/svg.svg')`,
+        backgroundRepeat: 'repeat',
+        backgroundSize: 'auto',
+      }}
+    >
+      {/* Navigation */}
+      <Nav />
 
-export default App
+      {/* Main Content */}
+      <main className="max-w-7xl mx-auto px-6 flex flex-col gap-10 mt-20">
+        <section id="hero"><Hero /></section>
+        <section id="about"><About /></section>
+        <section id="experience"><Experience /></section>
+        <section id="skills"><Skills /></section>
+        <section id="projects"><Project /></section>
+        <section id="contact"><Contact /></section>
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
