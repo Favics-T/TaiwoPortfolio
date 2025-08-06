@@ -1,6 +1,8 @@
 import React from 'react';
 import Agric from '../assets/agriconland.png';
 import Findash from '../assets/Findash.png';
+import Ticket from '../assets/Ticket.png'
+import Geeks from '../assets/Geeks.png'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const ProjectCard = ({ image, title, subTitle, liveSite, github }) => {
@@ -54,16 +56,30 @@ const Project = () => {
       name: 'Finsight',
       description: 'Crypto Dashboard',
       liveSite: 'https://finsight.vercel.app',
-      github: 'https://github.com/yourusername/finsight',
+      github: 'https://github.com/Favics-T/finsight',
       image: Findash,
     },
     {
       name: 'AgriConLand',
       description: 'Agricultural Investment Platform',
-      liveSite: '',
-      github: '',
+      liveSite: 'https://agricon.com.ng',
+      github: 'https://agricon.com.ng',
       image: Agric,
     },
+    {
+      name:"Ticket Generator",
+      description:"Ticket Generator App",
+      liveSite:"https://ticket-generator-hng-two.vercel.app/",
+      github:"https://github.com/Favics-T/TicketGenerator-HNG",
+      image:Ticket
+    },
+    {
+      name:"Geeks Store",
+      description:"E-commerce Store",
+      liveSite:"https://favics-t.github.io/Geeks-Store/",
+      github:"https://github.com/Favics-T/Geeks-Store",
+      image:Geeks
+    }
   ];
 
   return (

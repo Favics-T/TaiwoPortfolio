@@ -15,7 +15,7 @@ const Nav = () => {
           <li key={name} className="list-none">
             <a
               href={path}
-              className="text-lg text-white hover:text-[#f04a7c] transition-colors duration-300"
+              className="md:text-lg text-sm text-white hover:text-[#f04a7c] transition-colors duration-300"
             >
               {name}
             </a>
