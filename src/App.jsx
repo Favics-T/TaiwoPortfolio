@@ -11,7 +11,7 @@ import Footer from './component/Footer';
 const App = () => {
   return (
     <div
-      className="bg-[#06010a] text-white font-[Inter] gap-10 flex flex-col"
+      className="bg-[#06010a text-white font-[Inter] gap-10 flex flex-col"
       style={{
         backgroundImage: `url('/assets/svg.svg')`,
         backgroundRepeat: 'repeat',
@@ -23,6 +23,7 @@ const App = () => {
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 flex flex-col gap-20  mt-20">
+        
         <section id="hero"><Hero /></section>
         <section id="about"><About /></section>
         <section id="experience"><Experience /></section>

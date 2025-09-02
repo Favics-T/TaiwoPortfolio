@@ -13,13 +13,13 @@ const About = () => {
         {/* Content */}
         <div className="flex flex-col md:flex-row items-center gap-10">
           {/* Image Placeholder */}
-          <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg">
+          {/* <div className="w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-indigo-600 shadow-lg">
             <img
               src="/profile.jpg" 
               alt="Kolapo Faith Taiwo"
               className="w-full h-full object-cover"
             />
-          </div>
+          </div> */}
 
           {/* Text Content */}
           <div className="md:flex-1 text-center md:text-left">
@@ -44,7 +44,7 @@ const About = () => {
             </p>
 
             {/* Call-to-Action Button */}
-            <div className="mt-6">
+            <div className="mt-6 flex items-center justify-center">
               <a
                 href="#projects"
                 className="inline-block px-6 py-3 bg-indigo-600 text-white rounded-lg shadow-lg hover:bg-indigo-700 transition"
