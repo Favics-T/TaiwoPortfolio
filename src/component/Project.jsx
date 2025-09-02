@@ -3,6 +3,7 @@ import Agric from '../assets/agriconland.png';
 import Findash from '../assets/Findash.png';
 import Ticket from '../assets/Ticket.png'
 import Geeks from '../assets/Geeks.png'
+import Admin from '../assets/Admin.png'
 import { FaExternalLinkAlt, FaGithub } from 'react-icons/fa';
 
 const ProjectCard = ({ image, title, subTitle, liveSite, github }) => {
@@ -51,7 +52,7 @@ const ProjectCard = ({ image, title, subTitle, liveSite, github }) => {
 };
 
 const Project = () => {
-  const projectList = [
+  const projects = [
     {
       name: 'Finsight',
       description: 'Crypto Dashboard',
@@ -79,6 +80,13 @@ const Project = () => {
       liveSite:"https://favics-t.github.io/Geeks-Store/",
       github:"https://github.com/Favics-T/Geeks-Store",
       image:Geeks
+    },
+    {
+      name:"Admin Dashboard",
+      description:"Admin Dashboard",
+      liveSite:"https://admin-dashboard-topaz-ten-40.vercel.app/",
+      github:"https://github.com/Favics-T/Admin-Dashboard",
+      image:Admin
     }
   ];
 
@@ -93,7 +101,7 @@ const Project = () => {
 
         {/* Project Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-items-center">
-          {projectList.map((project, index) => (
+          {projects.map((project, index) => (
             <ProjectCard
               key={index}
               title={project.name}
